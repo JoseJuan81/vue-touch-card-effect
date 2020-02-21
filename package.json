@@ -1,0 +1,44 @@
+{
+  "name": "vue-touch-card-effect",
+  "version": "0.1.0",
+  "description": "vue directive for animating components",
+  "main": "main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJuan81/vue-touch-card-effect.git"
+  },
+  "keywords": [
+    "vue",
+    "directive",
+    "touch",
+    "effect",
+    "card",
+    "component"
+  ],
+  "author": "josejuan81",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseJuan81/vue-touch-card-effect/issues"
+  },
+  "homepage": "https://github.com/JoseJuan81/vue-touch-card-effect#readme"
+}
