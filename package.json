@@ -1,6 +1,6 @@
 {
   "name": "vue-touch-card-effect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue directive for animating components",
   "main": "build/touchDirective.umd.js",
   "module": "build/touchDirective.esm.js",
