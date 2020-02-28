@@ -10,13 +10,13 @@ live example: https://codepen.io/JOSEJUAN/pen/QWbvzoV
 
 ## Install
 ```code
-npm install --save vue-touch-card-effect
+npm install --save vue-touch-card-dl
 ```
 ## Installation
 in your `main.js`
 ```js
 import Vue from 'vue';
-import myDirective from 'vue-touch-card-effect';
+import myDirective from 'vue-touch-card-dl';
 
 Vue.directive('touch-card', myDirective);
 ```
