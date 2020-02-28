@@ -1,4 +1,7 @@
 # vue-touch-card-dl
+<img alt="GitHub" src="https://img.shields.io/github/license/josejuan81/vue-touch-card-effect">
+<img alt="npm" src="https://img.shields.io/npm/dm/vue-touch-card-effect">
+<img alt="npm" src="https://img.shields.io/npm/v/<img alt="GitHub" src="https://img.shields.io/github/license/josejuan81/vue-touch-card-effect">
 
 
 > **vue-touch-card-dl** is a `vue` directive used to animating cards.
