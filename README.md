@@ -10,40 +10,22 @@ live example: https://codepen.io/JOSEJUAN/pen/QWbvzoV
 
 ## Install
 ```code
-npm install --save vue-touch-card-dl
+npm install --save vue-touch-card-effect
 ```
-
-## Installation 1
+## Installation
 in your `main.js`
 ```js
 import Vue from 'vue';
-import { install } from 'vue-touch-card-dl';
+import myDirective from 'vue-touch-card-effect';
 
-Vue.use(install);
-```
-> the directive's name is `v-touch-card`.
-
-```html
-<div id="app">
-	<h1>mouseover this card</h1>
-	<div v-touch-card="15" class="card"></div>
-</div>
-```
-
-## Installation 2
-in your `main.js`
-```js
-import Vue from 'vue';
-import myDirective from 'vue-touch-card-dl';
-
-Vue.directive('my-directive-name', myDirective);
+Vue.directive('touch-card', myDirective);
 ```
 > you can choose the directive's name.
 
 ```html
 <div id="app">
 	<h1>mouseover this card</h1>
-	<div v-my-directive-name="15" class="card"></div>
+	<div v-touch-card="15" class="card"></div>
 </div>
 ```
 
